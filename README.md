@@ -13,3 +13,5 @@ For adding changes:
 3. git add .
 4. git commit -m "message"
 5. git push
+
+# For each page create a seperate folder
