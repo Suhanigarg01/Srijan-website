@@ -8,7 +8,7 @@ For adding changes:
 1. git pull !!IMPORTANT
 2. git checkout dev
 
-# ADD CHANGES
+// ADD CHANGES
 
 3. git add .
 4. git commit -m "message"
