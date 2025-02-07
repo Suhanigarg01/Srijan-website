@@ -6,7 +6,7 @@ git clone https://github.com/Suhanigarg01/Srijan-website.git
 For adding changes:
 
 1. git pull !!IMPORTANT
-2. git checkout branch dev
+2. git checkout dev
 
 # ADD CHANGES
 
