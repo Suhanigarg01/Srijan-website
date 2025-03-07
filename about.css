@@ -1,0 +1,85 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+#navbar {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    display : flex;
+    justify-content: space-between;
+}
+
+#shopbutton {
+    background: linear-gradient(to right, #dcff5f, #7bfe7d);
+    color: #2f2f2f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#toggle {
+    background: linear-gradient(to right, #6fff5f, #fee27b);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#slideshow{
+    position:relative;
+    top:50px;
+    height:100vh;
+    width:50vw;
+    border:2px solid wheat;
+    animation: intro 25s ease-in-out 0s infinite normal;
+}
+
+
+@keyframes intro{
+    0%{
+        background-image:url("/pic1.png");
+        background-size:cover;
+    }
+    50%{
+        background-image:url("/pic2.png");
+        background-size:cover;
+    }
+    100%{
+        background-image:url("/pic3.png");
+        background-size:cover;
+    }
+}
+
+#mission {
+    background-image: linear-gradient(180deg, hwb(152 5% 68% / 0.884), yellow);
+    color: #e3b448;
+    position: absolute;
+    width:50vw;
+    margin-left:50vw;
+    margin-top:100px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;;
+    font-family: 'Dancing-Script',cursive;
+    font-size: 30px;
+}
+
+#team{
+    text-align: center;
+    background-image: linear-gradient(180deg, hwb(178 7% 22% / 0.884), rgb(19, 49, 140));
+    color:bisque;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
