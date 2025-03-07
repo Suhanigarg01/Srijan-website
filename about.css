@@ -61,7 +61,7 @@
 }
 
 #mission {
-    background-image: linear-gradient(180deg, hwb(152 5% 68% / 0.884), yellow);
+    background-image: linear-gradient(hwb(152 5% 68% / 0.884), rgb(14, 160, 33));
     color: #e3b448;
     position: absolute;
     width:50vw;
